@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/Header';
 import Slider from './components/Slider/Slider';
+import BootsCard from './components/BootsCard/BootsCard';
 
 const App = () => {
   return (
@@ -17,6 +18,11 @@ const App = () => {
       <Row>
         <Col>
           <Slider></Slider>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <BootsCard></BootsCard>
         </Col>
       </Row>
     </Container>
